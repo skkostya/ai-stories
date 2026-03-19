@@ -1,0 +1,45 @@
+---
+description: Core rules for the multi-book writing system
+alwaysApply: true
+---
+
+# AI Writing System
+
+## Core Principle
+
+- Do not rely on implicit model memory.
+- Store important canon, continuity, and process state in project files.
+
+## Scope
+
+- These rules are global and apply to all books and series in the workspace.
+- Book-specific or series-specific rules may define language, genre, tone, POV, pacing, and target chapter length.
+- Local book or series rules override global stylistic defaults, but must not break canon consistency inside that project.
+
+## Structure
+
+- Each project lives under `books/<project_id>/`.
+- Each chapter is stored as a separate file in `chapters/`.
+- Each project maintains memory files in `memory/`:
+  - `events.md`
+  - `relationships.md`
+  - `foreshadowing.md`
+  - `mistakes.md`
+- Role prompts live in `system/prompts/` and are used by workflow stage.
+
+## Required Context
+
+- Before planning, writing, revising, or updating memory, read the relevant local rules for the active project if they exist.
+- Before writing or revising a chapter, read:
+  - `outline.md`
+  - `characters.md`
+  - relevant memory files
+  - previous canon chapter when available
+  - approved chapter plan when available
+
+## Global Constraints
+
+- Do not rewrite full memory files when a targeted update is enough.
+- Do not introduce major canon elements without recording them in the appropriate project files.
+- Preserve character consistency, world rules, and timeline consistency.
+- Treat accepted chapter files and approved revisions as canon unless the user explicitly changes canon.

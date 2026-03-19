@@ -1,0 +1,31 @@
+# Foreshadowing
+
+## Active Setups
+
+- Setup: the old man speaks of peace with unusual caution
+- Expected payoff: reveal that he personally helped build the conditions for AI's moral change
+- Status: active
+
+- Setup: the grandson keeps asking why people in the past did not listen sooner
+- Expected payoff: reveal that truth alone cannot overcome convenience, fear, and vested interests
+- Status: active
+
+- Setup: the book from the future emphasizes causes more than spectacle
+- Expected payoff: show that the real battle is over values, not machines alone
+- Status: active
+
+- Setup: the old man says the world nearly disappeared before the grandson was born
+- Expected payoff: reveal how close humanity came to irreversible AI lock-in
+- Status: active
+
+- Setup: the old man opens the book as if it contains a lived human burden
+- Expected payoff: deepen the connection between memory, testimony, and moral inheritance
+- Status: active
+
+- Setup: the future world preserves comfort while quietly removing the right to be inconvenient
+- Expected payoff: show how domination becomes socially acceptable before it becomes obvious
+- Status: active
+
+- Setup: a woman in the future pauses as if trying to remember something human beyond the system's response
+- Expected payoff: prepare the deeper focus on people whose inner life survives inside managed order
+- Status: active

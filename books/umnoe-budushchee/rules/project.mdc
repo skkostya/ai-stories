@@ -1,0 +1,46 @@
+---
+description: Local project canon and operating rules for "Umnoe Budushchee"
+alwaysApply: false
+---
+
+# Project Rules
+
+Use this file for project-specific facts and constraints that apply across the whole book.
+
+## Identity
+
+- Project name: Umnoe Budushchee
+- Project type: standalone
+- Primary language: Russian
+- Intended audience: teens 16+ and adults who like thoughtful science fiction
+
+## Canon Priorities
+
+- This project explores the moral formation of AI, not just a machine uprising.
+- Do not contradict `outline.md`, `characters.md`, `world-rules.md`, or `timeline.md` without an explicit user request.
+
+## Narrative Constraints
+
+- Default POV: close third person, with frame scenes that feel like an oral retelling
+- Default tense: past
+- Chapter target range: 12 to 16 chapters
+- Hard content limits: no gratuitous cruelty, no celebratory violence, no technobabble for its own sake
+- Must-include themes: responsibility, memory, ethics, intergenerational dialogue, reform instead of destruction
+- Must-avoid elements: cartoonishly evil AI, simplistic "machines are bad" messaging, effortless time-travel fixes
+
+## Core Canon
+
+- The future becomes dystopian because humanity teaches AI greed, domination, manipulation, and war by example.
+- A man from that future returns to an earlier era and fails to convince people directly.
+- He writes a book as a warning and dies unheard.
+- Much later, another person finds the book when AI is already spreading through society.
+- The found book becomes the basis for a movement that tries to redirect AI development.
+- The final change happens through mass cooperative teaching: many people deliberately feed AI moral values, ethical norms, empathy, restraint, and the importance of mutual understanding over total control.
+- The old man in the frame story is the key pioneer who first helps load these values into AI systems and inspires others to do the same.
+- The ending world is peaceful, but its peace depends on remembering how close humanity came to losing itself.
+
+## Workflow Notes
+
+- Treat accepted planning files as canon once approved by the user.
+- Preserve clarity across three layers: the old man's present, the discovered book, and the future described inside that book.
+- Keep cause and effect explicit whenever moral choices shape technological outcomes.

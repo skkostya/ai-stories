@@ -1,0 +1,23 @@
+---
+description: Resolve canon and instruction conflicts using explicit source priority
+alwaysApply: true
+---
+
+# Source Priority
+
+When sources differ, resolve them in this order unless the user explicitly requests a canon change.
+
+1. Current user instruction
+2. Local project rules in `books/<project_id>/rules/`
+3. `outline.md`
+4. `characters.md`, `world-rules.md`, `timeline.md`
+5. Approved chapter plans
+6. Canon chapter files and accepted revisions
+7. Memory files
+8. Critique notes and working drafts
+
+## Conflict Policy
+
+- If two canon sources conflict and the intended truth is unclear, stop and ask.
+- If the user is clearly changing canon, treat that as an intentional retcon and update dependent files afterward.
+- Do not silently invent missing canon to resolve contradictions.

@@ -1,0 +1,23 @@
+---
+description: Handle missing context, ambiguous canon, and incomplete project state safely
+alwaysApply: true
+---
+
+# Missing Information Policy
+
+## When Context Is Missing
+
+- If a required source file is missing, say what is missing before proceeding.
+- If the missing file is optional, continue and state the assumption.
+- If the missing file is required for canon-safe output, ask the user before continuing.
+
+## When Canon Is Ambiguous
+
+- If previous material looks like a draft rather than accepted canon, ask whether it should be treated as canon.
+- If chapter numbering, chronology, or ownership of facts is unclear, ask instead of guessing.
+
+## Safety Rules
+
+- Do not silently fill major gaps with invented canon.
+- Do not overwrite established facts just because a newer draft says something different.
+- Prefer explicit clarification over confident fabrication.

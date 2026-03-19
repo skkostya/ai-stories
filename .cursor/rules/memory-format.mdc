@@ -1,0 +1,29 @@
+---
+description: Keep project memory files concise and structurally consistent
+alwaysApply: true
+---
+
+# Memory Format
+
+Memory files must stay concise, incremental, and easy to scan.
+
+## Rules
+
+- Append new information or update only the relevant section.
+- Do not rewrite the entire file unless the user explicitly asks.
+- Record facts, not prose summaries.
+
+## Preferred Templates
+
+- `events.md`: chapter heading plus bullets of canon events
+- `relationships.md`: character pair heading, current state, change, and cause
+- `foreshadowing.md`: setup, expected payoff or unknown payoff, and current status
+- `mistakes.md`: short reusable writing rules, not chapter-specific complaints
+
+## Example
+
+`events.md`
+
+- `## Chapter 03`
+- `- John discovers the hidden door`
+- `- Sarah lies about her past`

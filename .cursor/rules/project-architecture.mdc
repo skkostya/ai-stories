@@ -1,0 +1,59 @@
+---
+description: Target directory layout for book and series projects
+alwaysApply: true
+---
+
+# Project Architecture
+
+This file describes the target structure of the workspace. It is a reference architecture, not a requirement that every file already exists.
+
+```text
+books/
+  _template/
+    rules/
+      project.mdc
+      style.mdc
+
+  <project_id>/
+    rules/
+      project.mdc
+      style.mdc
+
+    outline.md
+    characters.md
+    world-rules.md        # optional
+    timeline.md           # optional
+
+    chapters/
+      ch01.md
+
+    plans/
+      ch01_plan.md
+
+    critique/
+      ch01_critique.md
+
+    revisions/
+      ch01_revision.md
+
+    memory/
+      events.md
+      relationships.md
+      foreshadowing.md
+      mistakes.md
+
+system/
+  prompts/
+    planner.md
+    writer.md
+    critic.md
+    editor.md
+    memory-updater.md
+```
+
+## Notes
+
+- `books/_template/` is the reusable starter structure for new projects.
+- `books/<project_id>/rules/` stores local rules for a specific book or series.
+- Local project rules define style and narrative parameters for that project.
+- `system/prompts/` stores reusable role prompts for workflow stages.

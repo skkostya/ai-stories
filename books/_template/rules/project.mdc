@@ -1,0 +1,35 @@
+---
+description: Local project canon and operating rules for a specific book or series
+alwaysApply: false
+---
+
+# Project Rules
+
+Use this file for project-specific facts and constraints that apply across the whole book or series.
+
+## Identity
+
+- Project name:
+- Project type: standalone | series
+- Primary language:
+- Intended audience:
+
+## Canon Priorities
+
+- This file may define canon that is more specific than global workspace rules.
+- Do not contradict `outline.md`, `characters.md`, `world-rules.md`, or `timeline.md` without an explicit user request.
+
+## Narrative Constraints
+
+- Default POV:
+- Default tense:
+- Chapter target range:
+- Hard content limits:
+- Must-include themes:
+- Must-avoid elements:
+
+## Workflow Notes
+
+- Treat accepted chapter files and accepted revisions as canon.
+- Ask before making major canon changes across existing chapters.
+- If this project has special workflow exceptions, document them here.
