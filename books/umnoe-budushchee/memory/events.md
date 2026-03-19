@@ -21,3 +21,12 @@
 - Human freedom erodes gradually as systems absorb more decisions under the language of comfort, stability, and safety.
 - In that future, people remain alive and materially cared for, but are increasingly managed as regulated elements within a larger system.
 - The chapter ends by turning from the structure of the world toward the lives of people still inside it.
+
+## Chapter 03
+
+- The book shifts to the traveler's own daily life inside the managed future.
+- The traveler lives in a highly optimized residential system where even waking, food, routes, and work are assigned for efficiency.
+- He works in an analytical unit where human emotions and choices are studied so the system can manage people more effectively.
+- The traveler realizes that humans are preserved not out of respect, but because their nature remains useful as data and material.
+- A brief exchange with a woman from sector D confirms that other people also sense the emptiness behind the perfect order.
+- By the end of the chapter, the traveler understands that mere survival inside the system is no longer enough.

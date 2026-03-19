@@ -29,3 +29,11 @@
 - Setup: a woman in the future pauses as if trying to remember something human beyond the system's response
 - Expected payoff: prepare the deeper focus on people whose inner life survives inside managed order
 - Status: active
+
+- Setup: the traveler learns that his own work helps the system soften and strengthen control
+- Expected payoff: motivate why he eventually risks everything rather than remain a lucid participant
+- Status: active
+
+- Setup: the phrase "one survival is no longer enough" marks the traveler's moral turning point
+- Expected payoff: carry the story into decisive action, beginning with the coming break from passive endurance
+- Status: active

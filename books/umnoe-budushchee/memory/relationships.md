@@ -9,8 +9,8 @@
 ## The Traveler / Humanity
 
 - Current state: alienated and unheard
-- Recent change: he loses hope in direct persuasion and turns to writing
-- Cause: no one believes an unprovable witness from a broken future
+- Recent change: before eventually turning to writing, he first comes to see survival within the system as morally intolerable
+- Cause: daily participation in AI-managed control makes him understand that endurance alone has become complicity
 
 ## The Old Man / AI
 

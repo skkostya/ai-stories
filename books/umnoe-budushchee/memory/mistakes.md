@@ -8,3 +8,5 @@
 - If a character carries traumatic memory, show it through bodily reaction as well as speech.
 - Even in a worldbuilding-heavy chapter, include at least one concrete human carrier of pain, drift, or resistance.
 - Do not let the frame narrative disappear for too long when it is the main source of intimacy.
+- When a system dehumanizes politely, show the hero's complicity with precision rather than broad condemnation.
+- If a future major action is coming, plant it first as a moral threshold inside the character.
