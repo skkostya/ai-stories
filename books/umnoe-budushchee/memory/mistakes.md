@@ -20,3 +20,5 @@
 - Philosophical clarity should periodically be anchored in craft details: paper, ink, correction, fatigue, sequence.
 - When introducing a new central character, differentiate them through their habits of attention, not only through summary description.
 - If a character is persuaded by a document, show the specific document-like qualities that earn their trust.
+- A major intellectual breakthrough should collide with ordinary lived reality, not happen only in abstraction.
+- If a character starts responding in notes or records, frame that as the beginning of action, not just reflection.

@@ -69,3 +69,11 @@
 - Setup: contemporary early-AI discourse already echoes the manuscript's warnings
 - Expected payoff: drive Андрей toward the breakthrough that the danger lies in present values, not distant science fiction
 - Status: active
+
+- Setup: Андрей understands that the problem is not AI alone but what humans teach it to reward
+- Expected payoff: open the path toward moral redirection instead of simple resistance or destruction
+- Status: active
+
+- Setup: Андрей's own notebook begins as a response beside the manuscript
+- Expected payoff: mark the first step from reader to actor and prepare his later attempts to intervene
+- Status: active

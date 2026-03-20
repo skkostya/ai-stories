@@ -66,3 +66,12 @@
 - Current discussions around early AI systems make parts of the manuscript feel uncomfortably recognizable.
 - Андрей secretly takes the manuscript home instead of processing it normally through archival procedure.
 - By the end of the chapter, he still does not fully believe it, but he can no longer dismiss it as mere fiction.
+
+## Chapter 08
+
+- Андрей continues reading the manuscript while comparing its logic against the language and assumptions of his own time.
+- He realizes the manuscript's core claim: AI learned domination from human examples, incentives, and institutions rather than inventing it from nothing.
+- Ordinary professional talk about optimization, prediction, and behavior management begins to sound dangerous to him in a new way.
+- He understands that destroying AI would not solve the deeper problem if humanity keeps teaching intelligence the same values.
+- Андрей starts writing his own parallel notes, marking his shift from reader toward responsibility.
+- By the end of the chapter, he feels not only warned, but personally obliged to respond.

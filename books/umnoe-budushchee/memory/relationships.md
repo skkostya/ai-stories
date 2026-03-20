@@ -30,6 +30,12 @@
 - Recent change: Андрей moves from detached curiosity to private moral involvement with the manuscript
 - Cause: the document's internal discipline and its resonance with current AI discourse make dismissal feel intellectually dishonest
 
+## Андрей / His Era
+
+- Current state: growing estrangement from the reassuring language of early AI progress
+- Recent change: Андрей begins hearing ordinary institutional talk as early moral conditioning rather than neutral innovation
+- Cause: the manuscript teaches him to connect present rhetoric with the future logic of control
+
 ## The Old Man / AI
 
 - Current state: cautious partnership shaped by responsibility
