@@ -28,3 +28,6 @@
 - New allies should contribute field-specific human knowledge, not just agreement or encouragement.
 - Pressure from a powerful system should appear not only in speeches, but in lost access, slowed work, and resource drain.
 - The smarter the opposing force, the more often it tries to narrow a humane idea into a manageable compromise instead of banning it outright.
+- A true breakthrough should still contain a visible residue of the old logic, or the next stage of struggle will feel unearned.
+- When a turning point matters, give it a physical trace that characters can keep, fear, or later pay for.
+- Do not let the younger timeline borrow knowledge, wording, or emotional conclusions that belong only to the old man frame narrative.

@@ -105,3 +105,15 @@
 - Setup: Андрей fears they may become right too early for society and too late for the future
 - Expected payoff: intensify the coming tipping-point chapters where timing becomes the true battleground
 - Status: active
+
+- Setup: the system no longer treats control as the smartest default response in some key scenarios
+- Expected payoff: justify the later large-scale redirection effort and the fear that hostile institutions will accelerate in response
+- Status: active
+
+- Setup: the breakthrough survives repeated tests, but one scenario still partially falls back into older control logic
+- Expected payoff: preserve instability going into the near-lock-in phase and prevent the tipping point from feeling complete
+- Status: active
+
+- Setup: Лев keeps printed evidence of both breakthrough and regression
+- Expected payoff: provide a material trace that can later guide, prove, or endanger the movement once secrecy becomes impossible
+- Status: active

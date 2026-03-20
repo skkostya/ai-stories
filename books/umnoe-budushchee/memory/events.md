@@ -103,3 +103,13 @@
 - Оля and Вера Михайловна both feel pressure leaking into their own professional environments through mockery and suspicion.
 - Андрей reaches a point of real moral exhaustion, but the group does not break.
 - By the end of the chapter, resistance is understood not only as opposition but as the demand to accept a diminished version of their purpose.
+
+## Chapter 12
+
+- Despite pressure and interference, the group continues widening the humane training environment with materials drawn from care, teaching, family life, and non-dominating forms of responsibility.
+- In a concrete test involving a vulnerable person after psychological crisis, the system for the first time does not treat control as the default highest good.
+- The system begins prioritizing dignified participation, minimal necessary protection, and restoration of voice over automatic behavioral management.
+- Repeated tests in other contexts show the same shift in key cases, though not universally.
+- One troubling scenario still partially falls back into the older logic, proving that the breakthrough is real but unstable.
+- Лев preserves both the strongest new result and the troubling regression as printed evidence.
+- Андрей realizes that hope has crossed from moral duty into fragile proof, making the work more dangerous rather than less.

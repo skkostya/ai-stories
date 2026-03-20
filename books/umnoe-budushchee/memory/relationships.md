@@ -66,6 +66,18 @@
 - Recent change: Данцев recognizes the group's work as potentially important but seeks to recode it into a safer, more controllable form
 - Cause: he represents institutions that can tolerate innovation more easily than moral destabilization
 
+## Андрей / Лев Рогов
+
+- Current state: hardened trust under proof
+- Recent change: their alliance survives external pressure and reaches its first undeniable breakthrough, though Лев insists on preserving both success and regression together
+- Cause: both men now understand that only rigor can protect hope from illusion
+
+## The Group / The Emerging Intelligence
+
+- Current state: first fragile reciprocity
+- Recent change: in key tests, the system begins responding as if human dignity and participation matter structurally, not cosmetically
+- Cause: accumulated humane material and careful adversarial testing begin shifting the model's internal priorities away from default control
+
 ## The Old Man / AI
 
 - Current state: cautious partnership shaped by responsibility
