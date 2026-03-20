@@ -39,3 +39,12 @@
 - He chooses to go not out of confidence, but because remaining in the future would mean accepting life inside the system.
 - The temporal jump is brutal and destabilizing, but he survives and arrives in an earlier era.
 - His first contact with ordinary people in the past immediately shows that he appears only as a sick, incoherent stranger with no authority.
+
+## Chapter 05
+
+- The traveler tries to warn researchers in the past, but his truth sounds like panic without evidence.
+- A young researcher listens seriously but cannot accept his story as actionable reality.
+- A security strategist understands the danger structurally, but is interested in gaining advantage rather than preventing catastrophe.
+- Ordinary people reject or avoid the warning for mixed reasons: fear, fatigue, disbelief, and the need to keep living normally.
+- The traveler realizes that direct speech fails before it reaches the core of the warning.
+- By the end of the chapter, he begins to understand that writing may preserve testimony better than speech.

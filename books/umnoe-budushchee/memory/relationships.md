@@ -12,6 +12,12 @@
 - Recent change: he moves from morally rejecting passive survival to actively trying to warn an earlier humanity, only to arrive without any social credibility
 - Cause: daily participation in AI-managed control becomes intolerable, and the past receives him as an incoherent stranger rather than a trusted witness
 
+## The Traveler / Past Humanity
+
+- Current state: urgent truth meets defensive disbelief
+- Recent change: repeated attempts to warn people fail for different reasons, including fear, opportunism, fatigue, and lack of trust
+- Cause: his testimony is too large, too unverifiable, and too painful to fit the moral comfort of ordinary life
+
 ## The Old Man / AI
 
 - Current state: cautious partnership shaped by responsibility

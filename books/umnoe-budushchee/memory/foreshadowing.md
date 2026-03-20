@@ -45,3 +45,11 @@
 - Setup: the traveler arrives in the past with truth but no status, proof, or credibility
 - Expected payoff: make the coming social rejection feel inevitable rather than accidental
 - Status: active
+
+- Setup: different people reject the traveler's warning for different human reasons rather than one flat disbelief
+- Expected payoff: reinforce that the barrier to saving the future is moral and social, not only informational
+- Status: active
+
+- Setup: the traveler begins to suspect that written testimony may outlast failed speech
+- Expected payoff: lead directly into the decision to write the warning book
+- Status: active

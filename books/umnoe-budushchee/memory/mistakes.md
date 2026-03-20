@@ -14,3 +14,5 @@
 - When a witness enters a new setting without credibility, make disbelief immediate and ordinary, not only thematic.
 - Do not split one continuous scene or thought into too many tiny paragraphs if the fragmentation weakens flow.
 - Use one-line or one-word paragraphs only as rare emphasis, not as the default texture of dramatic prose.
+- When several failures happen in one chapter, give each one a distinct emotional texture and social logic.
+- If a character moves from speech toward writing, show that the shift comes from repeated human misfires, not abstract reflection alone.
