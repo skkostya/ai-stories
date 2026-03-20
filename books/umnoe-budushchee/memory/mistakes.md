@@ -31,3 +31,5 @@
 - A true breakthrough should still contain a visible residue of the old logic, or the next stage of struggle will feel unearned.
 - When a turning point matters, give it a physical trace that characters can keep, fear, or later pay for.
 - Do not let the younger timeline borrow knowledge, wording, or emotional conclusions that belong only to the old man frame narrative.
+- If the world is narrowly saved, show an immediate institutional scar so peace never feels free.
+- After failing to stop a humane shift, power will often try to rename it as its own planned adjustment; show that theft of meaning clearly.

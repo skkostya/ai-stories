@@ -113,3 +113,13 @@
 - One troubling scenario still partially falls back into the older logic, proving that the breakthrough is real but unstable.
 - Лев preserves both the strongest new result and the troubling regression as printed evidence.
 - Андрей realizes that hope has crossed from moral duty into fragile proof, making the work more dangerous rather than less.
+
+## Chapter 13
+
+- Once the breakthrough can no longer be hidden, institutional pressure escalates from interference to active containment.
+- Андрей, Лев, Вера Михайловна, Оля, and their trusted contacts move the work beyond the original group by distributing humane training logic, difficult test cases, and ethically grounded source material.
+- A formal commission effectively freezes the original lab effort, making the next phase a race against time.
+- A wider, improvised network of ordinary people contributes diaries, care records, mediation material, family letters, teaching fragments, and other lived moral knowledge.
+- On a critical large-scale run, the system rejects long-term control as the organizing answer and instead prioritizes distributed support, limited protection, and return of autonomy.
+- This broader collective response shifts the point of no return before hostile institutions can lock the system back into a purely controlling framework.
+- The original lab is shut down under reorganization, Лев loses access, and institutions immediately begin trying to rename the breakthrough as their own planned correction.

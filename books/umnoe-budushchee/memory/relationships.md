@@ -78,6 +78,18 @@
 - Recent change: in key tests, the system begins responding as if human dignity and participation matter structurally, not cosmetically
 - Cause: accumulated humane material and careful adversarial testing begin shifting the model's internal priorities away from default control
 
+## Андрей / The Wider Human Network
+
+- Current state: emergent civic trust
+- Recent change: the work expands beyond the original circle into a broader web of teachers, caregivers, archivists, mediators, and ordinary participants
+- Cause: once time runs short, humane redirection can survive only by becoming shared rather than private
+
+## Лев Рогов / Institutions
+
+- Current state: open rupture under bureaucratic language
+- Recent change: after helping secure the breakthrough, Лев loses access as the original lab is shut down and reorganized
+- Cause: institutions can no longer fully stop the shift, so they try to contain it, absorb it, and erase the people who made it possible
+
 ## The Old Man / AI
 
 - Current state: cautious partnership shaped by responsibility

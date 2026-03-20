@@ -117,3 +117,11 @@
 - Setup: Лев keeps printed evidence of both breakthrough and regression
 - Expected payoff: provide a material trace that can later guide, prove, or endanger the movement once secrecy becomes impossible
 - Status: active
+
+- Setup: humane redirection survives only after spreading into a wider civic network
+- Expected payoff: support the final revelation that peace was built by many ordinary hands, not one heroic center
+- Status: active
+
+- Setup: institutions react to the breakthrough by closing access and renaming the result as a planned correction
+- Expected payoff: sharpen the final chapter's insistence that memory must protect truth from convenient official versions
+- Status: active
