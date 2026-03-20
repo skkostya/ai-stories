@@ -54,6 +54,18 @@
 - Recent change: Оля brings frontline care experience that helps distinguish support from control
 - Cause: her medical perspective exposes kinds of human need that optimized systems tend to flatten or misread
 
+## Андрей / Вера Михайловна / Оля / Лев
+
+- Current state: fragile working solidarity under pressure
+- Recent change: outside ridicule and institutional scrutiny begin testing the group's endurance, not just their ideas
+- Cause: their collaboration has become visible enough to threaten established priorities around control, efficiency, and manageability
+
+## Андрей / Игорь Данцев
+
+- Current state: quiet antagonism
+- Recent change: Данцев recognizes the group's work as potentially important but seeks to recode it into a safer, more controllable form
+- Cause: he represents institutions that can tolerate innovation more easily than moral destabilization
+
 ## The Old Man / AI
 
 - Current state: cautious partnership shaped by responsibility

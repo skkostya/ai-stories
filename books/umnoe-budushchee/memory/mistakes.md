@@ -26,3 +26,5 @@
 - When moral theory becomes experiment, show both the human source material and the technical caution around interpreting results.
 - When a private effort begins to widen, let its visibility create new fragility as well as momentum.
 - New allies should contribute field-specific human knowledge, not just agreement or encouragement.
+- Pressure from a powerful system should appear not only in speeches, but in lost access, slowed work, and resource drain.
+- The smarter the opposing force, the more often it tries to narrow a humane idea into a manageable compromise instead of banning it outright.

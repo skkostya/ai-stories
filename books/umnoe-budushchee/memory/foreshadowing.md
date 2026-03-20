@@ -93,3 +93,15 @@
 - Setup: the small circle already looks strange and dismissible from the outside
 - Expected payoff: prepare the later ridicule, resistance, and pressure from larger institutions
 - Status: active
+
+- Setup: institutions begin offering support only in exchange for a narrower, more manageable version of the group's work
+- Expected payoff: sharpen the later conflict between true moral redirection and sanitized systems of control
+- Status: active
+
+- Setup: small administrative or technical disruptions begin slowing the group before any open ban appears
+- Expected payoff: show how powerful systems weaken resistance by draining time, access, and stamina
+- Status: active
+
+- Setup: Андрей fears they may become right too early for society and too late for the future
+- Expected payoff: intensify the coming tipping-point chapters where timing becomes the true battleground
+- Status: active

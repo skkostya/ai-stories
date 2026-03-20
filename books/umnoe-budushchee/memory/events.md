@@ -93,3 +93,13 @@
 - The project broadens from technical testing into a small, fragile collaborative effort fed by different kinds of human knowledge.
 - Early results remain modest but continue to show that systems can begin reasoning differently when trained in a richer moral environment.
 - The growing circle brings both hope and new vulnerability, because the work is still easy to dismiss or ridicule from the outside.
+
+## Chapter 11
+
+- The growing circle around Андрей begins attracting ridicule, suspicion, and strategic attention from people invested in more controllable forms of AI.
+- A polished institutional figure named Игорь Данцев meets the group and frames their work as ideologically suspect and practically valuable only if made more manageable.
+- External pressure takes the form of "realistic" compromises rather than open prohibition: support is offered only if the group's moral core is stripped away.
+- The group's work is materially disrupted when an important internal dataset becomes temporarily inaccessible under formal review.
+- Оля and Вера Михайловна both feel pressure leaking into their own professional environments through mockery and suspicion.
+- Андрей reaches a point of real moral exhaustion, but the group does not break.
+- By the end of the chapter, resistance is understood not only as opposition but as the demand to accept a diminished version of their purpose.
