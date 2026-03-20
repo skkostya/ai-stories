@@ -84,3 +84,12 @@
 - The system does not transform dramatically, but in key tests begins to reason with more respect for autonomy and voluntary participation.
 - This first result is fragile and inconclusive, yet enough to show Андрей that redirection may be possible.
 - By the end of the chapter, he holds not just diagnosis, but the first practical form of hope.
+
+## Chapter 10
+
+- Андрей and Лев realize the work cannot stay limited to a narrow technical experiment.
+- A teacher, Вера Михайловна, joins by bringing texts and examples of human dignity, care, and moral language that do not reduce people to function.
+- Оля, a nurse and Лев's sister, adds practical insight into the difference between care and control in real human vulnerability.
+- The project broadens from technical testing into a small, fragile collaborative effort fed by different kinds of human knowledge.
+- Early results remain modest but continue to show that systems can begin reasoning differently when trained in a richer moral environment.
+- The growing circle brings both hope and new vulnerability, because the work is still easy to dismiss or ridicule from the outside.

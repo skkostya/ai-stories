@@ -24,3 +24,5 @@
 - If a character starts responding in notes or records, frame that as the beginning of action, not just reflection.
 - The first hopeful result in a long struggle should be small, concrete, and easy to mistrust.
 - When moral theory becomes experiment, show both the human source material and the technical caution around interpreting results.
+- When a private effort begins to widen, let its visibility create new fragility as well as momentum.
+- New allies should contribute field-specific human knowledge, not just agreement or encouragement.

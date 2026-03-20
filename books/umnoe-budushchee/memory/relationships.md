@@ -42,6 +42,18 @@
 - Recent change: Андрей shares his emerging theory of moral retraining, and Лев grants it serious experimental attention
 - Cause: both men distrust simple answers, and the first small shift in system behavior gives them a shared basis for continued work
 
+## Андрей / Вера Михайловна
+
+- Current state: respectful trust
+- Recent change: she joins the effort by supplying moral and literary material that broadens the system's human environment
+- Cause: she recognizes that language itself teaches what kinds of people matter
+
+## Андрей / Оля
+
+- Current state: newly forming practical trust
+- Recent change: Оля brings frontline care experience that helps distinguish support from control
+- Cause: her medical perspective exposes kinds of human need that optimized systems tend to flatten or misread
+
 ## The Old Man / AI
 
 - Current state: cautious partnership shaped by responsibility

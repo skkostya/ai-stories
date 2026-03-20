@@ -85,3 +85,11 @@
 - Setup: Андрей and Лев form the first practical alliance around moral redirection
 - Expected payoff: open the path for additional allies and a broader movement
 - Status: active
+
+- Setup: non-technical contributors expand the training environment with language, care, memory, and lived vulnerability
+- Expected payoff: justify why the later movement must become civic and collective rather than purely technical
+- Status: active
+
+- Setup: the small circle already looks strange and dismissible from the outside
+- Expected payoff: prepare the later ridicule, resistance, and pressure from larger institutions
+- Status: active
