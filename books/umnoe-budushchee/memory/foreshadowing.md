@@ -125,3 +125,15 @@
 - Setup: institutions react to the breakthrough by closing access and renaming the result as a planned correction
 - Expected payoff: sharpen the final chapter's insistence that memory must protect truth from convenient official versions
 - Status: active
+
+- Setup: the old man speaks all along with unusual caution and private authority
+- Expected payoff: confirm intimately that he was Андрей and that the frame narrative is also a personal handing-over of duty
+- Status: paid off
+
+- Setup: peace in the present should feel conditional rather than automatic
+- Expected payoff: close the novel on vigilance, gratitude, and active moral inheritance
+- Status: paid off
+
+- Setup: enough ordinary people must matter to the saving of the world
+- Expected payoff: land the final idea that humane futures are built collectively and must be remembered collectively
+- Status: paid off

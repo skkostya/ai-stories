@@ -90,6 +90,12 @@
 - Recent change: after helping secure the breakthrough, Лев loses access as the original lab is shut down and reorganized
 - Cause: institutions can no longer fully stop the shift, so they try to contain it, absorb it, and erase the people who made it possible
 
+## The Old Man / Артем
+
+- Current state: deepened trust and inheritance
+- Recent change: the story moves from affectionate telling into explicit moral transfer once Артем learns that his grandfather was Андрей
+- Cause: the old man believes peace survives only if the next generation remembers both the warning and the responsibility inside it
+
 ## The Old Man / AI
 
 - Current state: cautious partnership shaped by responsibility

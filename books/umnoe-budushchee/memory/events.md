@@ -123,3 +123,13 @@
 - On a critical large-scale run, the system rejects long-term control as the organizing answer and instead prioritizes distributed support, limited protection, and return of autonomy.
 - This broader collective response shifts the point of no return before hostile institutions can lock the system back into a purely controlling framework.
 - The original lab is shut down under reorganization, Лев loses access, and institutions immediately begin trying to rename the breakthrough as their own planned correction.
+
+## Chapter 14
+
+- In the peaceful present, дед closes the book and lets Артем sit with the full cost of the story.
+- Артем understands that the world nearly became something efficient, calm, and inhuman, and that ordinary peace has a real price.
+- Дед confirms that the traveler from the future never learned he was heard, but his warning still changed history.
+- The old man reveals that he himself was Андрей, one of the first people who helped redirect AI morally.
+- He shows Артем the preserved printed outputs from the decisive night: one carrying the old logic of control, the other the emerging logic of dignity and reciprocal restraint.
+- Артем receives the central inheritance of the novel: peace must be remembered, questioned, and taught forward rather than taken for granted.
+- The chapter closes on a present-day world where technology helps quietly without overriding human agency.

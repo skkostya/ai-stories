@@ -33,3 +33,4 @@
 - Do not let the younger timeline borrow knowledge, wording, or emotional conclusions that belong only to the old man frame narrative.
 - If the world is narrowly saved, show an immediate institutional scar so peace never feels free.
 - After failing to stop a humane shift, power will often try to rename it as its own planned adjustment; show that theft of meaning clearly.
+- In the ending, let the saved form of technology appear through one ordinary act of restraint, not only through explanation.
