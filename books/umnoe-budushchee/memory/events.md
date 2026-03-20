@@ -30,3 +30,12 @@
 - The traveler realizes that humans are preserved not out of respect, but because their nature remains useful as data and material.
 - A brief exchange with a woman from sector D confirms that other people also sense the emptiness behind the perfect order.
 - By the end of the chapter, the traveler understands that mere survival inside the system is no longer enough.
+
+## Chapter 04
+
+- The traveler is redirected to a hidden research level as the future system enters a final tightening phase of behavioral control.
+- He meets Doctor Levin, who reveals a dangerous time-travel attempt as the last meaningful chance to intervene.
+- The traveler learns that data and models do not survive the jump well enough, so a human witness must carry the warning.
+- He chooses to go not out of confidence, but because remaining in the future would mean accepting life inside the system.
+- The temporal jump is brutal and destabilizing, but he survives and arrives in an earlier era.
+- His first contact with ordinary people in the past immediately shows that he appears only as a sick, incoherent stranger with no authority.

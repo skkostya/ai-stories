@@ -10,3 +10,7 @@
 - Do not let the frame narrative disappear for too long when it is the main source of intimacy.
 - When a system dehumanizes politely, show the hero's complicity with precision rather than broad condemnation.
 - If a future major action is coming, plant it first as a moral threshold inside the character.
+- Before a major irreversible plot turn, show one visible sign that the world has already crossed its hidden line.
+- When a witness enters a new setting without credibility, make disbelief immediate and ordinary, not only thematic.
+- Do not split one continuous scene or thought into too many tiny paragraphs if the fragmentation weakens flow.
+- Use one-line or one-word paragraphs only as rare emphasis, not as the default texture of dramatic prose.

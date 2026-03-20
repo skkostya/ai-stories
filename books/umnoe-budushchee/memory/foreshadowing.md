@@ -37,3 +37,11 @@
 - Setup: the phrase "one survival is no longer enough" marks the traveler's moral turning point
 - Expected payoff: carry the story into decisive action, beginning with the coming break from passive endurance
 - Status: active
+
+- Setup: Doctor Levin warns that people do not hear the end of the world when it sounds like someone else's theory
+- Expected payoff: frame the repeated failures of the traveler's direct warnings in the past
+- Status: active
+
+- Setup: the traveler arrives in the past with truth but no status, proof, or credibility
+- Expected payoff: make the coming social rejection feel inevitable rather than accidental
+- Status: active
