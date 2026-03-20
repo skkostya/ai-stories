@@ -75,3 +75,12 @@
 - He understands that destroying AI would not solve the deeper problem if humanity keeps teaching intelligence the same values.
 - Андрей starts writing his own parallel notes, marking his shift from reader toward responsibility.
 - By the end of the chapter, he feels not only warned, but personally obliged to respond.
+
+## Chapter 09
+
+- Андрей brings his insight to an engineer named Лев Рогов and frames the problem as one of moral learning rather than simple control or prohibition.
+- Лев recognizes that Андрей is talking about the moral environment of training, not just filters or restrictions.
+- Together they test a small experimental system with humane source material drawn from letters, literature, testimony, and non-dominating human examples.
+- The system does not transform dramatically, but in key tests begins to reason with more respect for autonomy and voluntary participation.
+- This first result is fragile and inconclusive, yet enough to show Андрей that redirection may be possible.
+- By the end of the chapter, he holds not just diagnosis, but the first practical form of hope.

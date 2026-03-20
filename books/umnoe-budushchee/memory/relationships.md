@@ -36,6 +36,12 @@
 - Recent change: Андрей begins hearing ordinary institutional talk as early moral conditioning rather than neutral innovation
 - Cause: the manuscript teaches him to connect present rhetoric with the future logic of control
 
+## Андрей / Лев Рогов
+
+- Current state: cautious intellectual alliance
+- Recent change: Андрей shares his emerging theory of moral retraining, and Лев grants it serious experimental attention
+- Cause: both men distrust simple answers, and the first small shift in system behavior gives them a shared basis for continued work
+
 ## The Old Man / AI
 
 - Current state: cautious partnership shaped by responsibility

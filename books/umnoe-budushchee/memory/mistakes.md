@@ -22,3 +22,5 @@
 - If a character is persuaded by a document, show the specific document-like qualities that earn their trust.
 - A major intellectual breakthrough should collide with ordinary lived reality, not happen only in abstraction.
 - If a character starts responding in notes or records, frame that as the beginning of action, not just reflection.
+- The first hopeful result in a long struggle should be small, concrete, and easy to mistrust.
+- When moral theory becomes experiment, show both the human source material and the technical caution around interpreting results.

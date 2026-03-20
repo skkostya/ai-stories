@@ -77,3 +77,11 @@
 - Setup: Андрей's own notebook begins as a response beside the manuscript
 - Expected payoff: mark the first step from reader to actor and prepare his later attempts to intervene
 - Status: active
+
+- Setup: humane training material can produce subtly different system reasoning before any grand breakthrough
+- Expected payoff: justify the later mass effort to teach AI different values at scale
+- Status: active
+
+- Setup: Андрей and Лев form the first practical alliance around moral redirection
+- Expected payoff: open the path for additional allies and a broader movement
+- Status: active
