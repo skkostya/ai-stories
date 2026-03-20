@@ -18,6 +18,12 @@
 - Recent change: repeated attempts to warn people fail for different reasons, including fear, opportunism, fatigue, and lack of trust
 - Cause: his testimony is too large, too unverifiable, and too painful to fit the moral comfort of ordinary life
 
+## The Traveler / The Book
+
+- Current state: emerging bond between witness and testimony
+- Recent change: the traveler shifts his last real hope from speech to a written account designed to survive disbelief
+- Cause: spoken warnings fail in the moment, while writing offers structure, memory, and endurance beyond his own body
+
 ## The Old Man / AI
 
 - Current state: cautious partnership shaped by responsibility

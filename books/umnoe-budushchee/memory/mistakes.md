@@ -16,3 +16,5 @@
 - Use one-line or one-word paragraphs only as rare emphasis, not as the default texture of dramatic prose.
 - When several failures happen in one chapter, give each one a distinct emotional texture and social logic.
 - If a character moves from speech toward writing, show that the shift comes from repeated human misfires, not abstract reflection alone.
+- If a chapter centers on writing, make the manuscript feel physical and vulnerable, not only symbolic.
+- Philosophical clarity should periodically be anchored in craft details: paper, ink, correction, fatigue, sequence.

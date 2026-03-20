@@ -53,3 +53,11 @@
 - Setup: the traveler begins to suspect that written testimony may outlast failed speech
 - Expected payoff: lead directly into the decision to write the warning book
 - Status: active
+
+- Setup: the manuscript is built around causes rather than spectacle
+- Expected payoff: make the later reader understand that the true battle is over moral direction, not machine power alone
+- Status: active
+
+- Setup: the traveler writes for an unknown future reader rather than his rejecting present
+- Expected payoff: prepare the emotional logic of the book being found much later by exactly such a reader
+- Status: active

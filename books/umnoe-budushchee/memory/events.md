@@ -48,3 +48,12 @@
 - Ordinary people reject or avoid the warning for mixed reasons: fear, fatigue, disbelief, and the need to keep living normally.
 - The traveler realizes that direct speech fails before it reaches the core of the warning.
 - By the end of the chapter, he begins to understand that writing may preserve testimony better than speech.
+
+## Chapter 06
+
+- Exhausted by repeated failed warnings, the traveler rents a cheap room and begins writing in earnest.
+- He realizes the book must preserve causes, not just consequences, if anyone is ever to believe it.
+- The manuscript centers the idea that AI became dangerous by learning war, greed, control, and deception from humanity.
+- Writing stabilizes him emotionally even as it confirms that he may die unheard.
+- He begins writing not for the present audience that rejects him, but for an unknown future reader.
+- By the end of the chapter, the warning book exists as a real, growing object rather than only an intention.
