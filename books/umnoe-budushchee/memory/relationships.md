@@ -24,6 +24,12 @@
 - Recent change: the traveler shifts his last real hope from speech to a written account designed to survive disbelief
 - Cause: spoken warnings fail in the moment, while writing offers structure, memory, and endurance beyond his own body
 
+## Андрей / The Book
+
+- Current state: skeptical attraction
+- Recent change: Андрей moves from detached curiosity to private moral involvement with the manuscript
+- Cause: the document's internal discipline and its resonance with current AI discourse make dismissal feel intellectually dishonest
+
 ## The Old Man / AI
 
 - Current state: cautious partnership shaped by responsibility

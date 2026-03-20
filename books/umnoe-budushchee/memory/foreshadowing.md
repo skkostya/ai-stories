@@ -61,3 +61,11 @@
 - Setup: the traveler writes for an unknown future reader rather than his rejecting present
 - Expected payoff: prepare the emotional logic of the book being found much later by exactly such a reader
 - Status: active
+
+- Setup: Андрей recognizes the manuscript first through its internal order and seriousness, not through belief in time travel
+- Expected payoff: ground his eventual commitment in intellect as well as emotion
+- Status: active
+
+- Setup: contemporary early-AI discourse already echoes the manuscript's warnings
+- Expected payoff: drive Андрей toward the breakthrough that the danger lies in present values, not distant science fiction
+- Status: active

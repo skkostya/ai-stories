@@ -57,3 +57,12 @@
 - Writing stabilizes him emotionally even as it confirms that he may die unheard.
 - He begins writing not for the present audience that rejects him, but for an unknown future reader.
 - By the end of the chapter, the warning book exists as a real, growing object rather than only an intention.
+
+## Chapter 07
+
+- Time passes, the traveler's life ends offstage, and the manuscript remains behind as a physical object.
+- A younger Андрей, who is the old man in his youth, finds the manuscript while sorting papers from a dead man's apartment.
+- He first treats the text as strange, possibly delusional, but notices unusual internal order and seriousness in it.
+- Current discussions around early AI systems make parts of the manuscript feel uncomfortably recognizable.
+- Андрей secretly takes the manuscript home instead of processing it normally through archival procedure.
+- By the end of the chapter, he still does not fully believe it, but he can no longer dismiss it as mere fiction.

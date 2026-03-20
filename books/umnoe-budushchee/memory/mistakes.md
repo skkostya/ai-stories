@@ -18,3 +18,5 @@
 - If a character moves from speech toward writing, show that the shift comes from repeated human misfires, not abstract reflection alone.
 - If a chapter centers on writing, make the manuscript feel physical and vulnerable, not only symbolic.
 - Philosophical clarity should periodically be anchored in craft details: paper, ink, correction, fatigue, sequence.
+- When introducing a new central character, differentiate them through their habits of attention, not only through summary description.
+- If a character is persuaded by a document, show the specific document-like qualities that earn their trust.
