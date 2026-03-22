@@ -49,6 +49,12 @@ system/
     critic.md
     editor.md
     memory-updater.md
+  mistakes/
+    planner-mistakes.md
+    writer-mistakes.md
+    critic-mistakes.md
+    editor-mistakes.md
+    memory-updater-mistakes.md
 ```
 
 ## Notes
@@ -57,3 +63,4 @@ system/
 - `books/<project_id>/rules/` stores local rules for a specific book or series.
 - Local project rules define style and narrative parameters for that project.
 - `system/prompts/` stores reusable role prompts for workflow stages.
+- `system/mistakes/` stores agent-specific cross-book mistakes, such as `writer-mistakes.md`, which are loaded through the matching prompt.

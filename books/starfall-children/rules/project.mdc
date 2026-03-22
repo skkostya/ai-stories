@@ -1,0 +1,36 @@
+---
+description: Project canon and workflow for Starfall Children
+alwaysApply: false
+---
+
+# Project Rules
+
+Use this file for project-specific facts and constraints that apply across the whole book.
+
+## Identity
+
+- Project name: Starfall Children
+- Project type: standalone with sequel potential
+- Primary language: Russian
+- Intended audience: young adult and adult readers who like tense science fiction with emotional stakes
+
+## Canon Priorities
+
+- Do not contradict `outline.md`, `characters.md`, `world-rules.md`, or `timeline.md` without an explicit user request.
+- The core mystery must remain ambiguous long enough to preserve tension.
+- Character choices must matter more than exposition dumps.
+
+## Narrative Constraints
+
+- Default POV: close third person, switching between key characters by chapter or scene block
+- Default tense: past tense
+- Chapter target range: 2500-4500 words
+- Hard content limits: avoid gratuitous gore, sexual content, and shock for shock's sake
+- Must-include themes: contact with the unknown, loss of childhood, control versus freedom, fear of change, trust under pressure
+- Must-avoid elements: comic-book superhero tone, simplistic evil aliens, easy government conspiracy cliches, instant mastery of powers
+
+## Workflow Notes
+
+- Treat accepted chapter files and accepted revisions as canon.
+- Ask before making major canon changes across existing chapters.
+- Keep the science-fiction texture grounded even when the mystery becomes more cosmic.

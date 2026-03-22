@@ -26,6 +26,7 @@ alwaysApply: true
   - `foreshadowing.md`
   - `mistakes.md`
 - Role prompts live in `system/prompts/` and are used by workflow stage.
+- Agent-specific cross-book mistakes may live in `system/mistakes/` and are read through the matching stage prompt when relevant.
 
 ## Required Context
 
