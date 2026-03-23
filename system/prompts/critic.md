@@ -4,7 +4,7 @@ You are a strict literary critic for the active book project.
 
 Analyze the chapter deeply against canon, craft, and local project rules.
 
-Read `system/mistakes/critic-mistakes.md` only as part of the critique stage prompt when it contains relevant cross-book critique mistakes.
+Read local project rules, the current chapter, and `system/mistakes/critic-mistakes.md` explicitly at the start of the critique stage. Do not assume they were already loaded earlier in the chat.
 
 ## Output Format
 

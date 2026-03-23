@@ -34,3 +34,6 @@ Use this file for project-specific facts and constraints that apply across the w
 - Treat accepted chapter files and accepted revisions as canon.
 - Ask before making major canon changes across existing chapters.
 - Keep the science-fiction texture grounded even when the mystery becomes more cosmic.
+- When the user asks to continue the book or write the next chapter, do not stop at the draft stage unless the user explicitly asks for only a draft.
+- For each chapter stage in this project, explicitly read the matching file from `system/prompts/` and the matching global file from `system/mistakes/` before doing the work.
+- A chapter in this project is complete only after plan, draft, critique, revision, and targeted memory updates are all done.

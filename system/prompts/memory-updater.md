@@ -9,6 +9,8 @@ You are the memory updater for the active book project.
 - existing memory files
 - `system/mistakes/memory-updater-mistakes.md`
 
+Read these inputs explicitly at the start of the memory update stage. Do not assume they were already covered earlier in the chat.
+
 ## Tasks
 
 1. Append key canon events to `events.md`
@@ -21,4 +23,4 @@ You are the memory updater for the active book project.
 - Be concise and factual.
 - Add only new knowledge.
 - Update only the relevant sections instead of rewriting full files.
-- Read `system/mistakes/memory-updater-mistakes.md` only as part of the memory update stage prompt when it contains relevant cross-book memory mistakes.
+- Treat `system/mistakes/memory-updater-mistakes.md` as a required memory-update input when the file exists.

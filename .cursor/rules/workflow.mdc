@@ -20,4 +20,7 @@ Use this workflow unless the user explicitly asks to skip or isolate a stage.
 - Do not jump to final prose when required planning context is missing.
 - Do not update memory before the chapter content is stable enough to be treated as canon.
 - If the user requests only one stage, complete that stage without assuming the others already happened.
-- Use the matching prompt from `system/prompts/` for the current stage.
+- If the user asks to write, continue, draft, or finish a chapter and does not explicitly limit the scope, run the full sequence through memory update before considering the chapter complete.
+- Before each stage, explicitly read the matching prompt from `system/prompts/` for that stage instead of relying on memory.
+- Before each stage, explicitly read the matching global mistakes file from `system/mistakes/` when it exists.
+- Do not stop after the writing draft if the user asked to continue the book or write the next chapter; finishing the chapter means completing critique, revision, and memory update unless the user opts out.

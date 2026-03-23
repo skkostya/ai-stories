@@ -31,6 +31,8 @@ alwaysApply: true
 ## Required Context
 
 - Before planning, writing, revising, or updating memory, read the relevant local rules for the active project if they exist.
+- Before each workflow stage, read the matching file in `system/prompts/` for that stage.
+- Before each workflow stage, read the matching global mistakes file in `system/mistakes/` if it exists.
 - Before writing or revising a chapter, read:
   - `outline.md`
   - `characters.md`
