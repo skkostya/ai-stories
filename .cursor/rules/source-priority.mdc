@@ -5,7 +5,9 @@ alwaysApply: true
 
 # Source Priority
 
-When sources differ, resolve them in this order unless the user explicitly requests a canon change.
+When sources differ, resolve them using the priority list that matches the active project mode unless the user explicitly requests a canon change.
+
+## Standalone Project Priority
 
 1. Current user instruction
 2. Local project rules in `books/<project_id>/rules/`
@@ -16,8 +18,23 @@ When sources differ, resolve them in this order unless the user explicitly reque
 7. Memory files
 8. Critique notes and working drafts
 
+## Series Project Priority
+
+1. Current user instruction
+2. Local project rules in `books/<project_id>/rules/`
+3. Series `outline.md`
+4. Series `characters.md`, `world-rules.md`, `timeline.md`
+5. Active volume `outline.md`
+6. Active volume `characters.md`, `timeline.md`
+7. Approved active-volume chapter plans
+8. Canon chapter files and accepted revisions in the active volume
+9. Series memory files
+10. Active volume memory files
+11. Critique notes and working drafts
+
 ## Conflict Policy
 
 - If two canon sources conflict and the intended truth is unclear, stop and ask.
 - If the user is clearly changing canon, treat that as an intentional retcon and update dependent files afterward.
 - Do not silently invent missing canon to resolve contradictions.
+- In `series` projects, do not let active-volume convenience override higher-priority series canon unless the user explicitly changes the series.

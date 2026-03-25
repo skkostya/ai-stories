@@ -19,42 +19,73 @@ books/
       project.mdc
       style.mdc
 
+    # standalone mode: one project equals one book
     outline.md
     characters.md
-    world-rules.md        # optional
-    timeline.md           # optional
-
+    world-rules.md              # optional
+    timeline.md                 # optional
     chapters/
       ch01.md
-
     plans/
       ch01_plan.md
-
     critique/
       ch01_critique.md
-
     revisions/
       ch01_revision.md
-
     memory/
       events.md
       relationships.md
       foreshadowing.md
       mistakes.md
 
+    # series mode: one project equals one series
+    outline.md                  # series arc
+    characters.md               # long-range character canon
+    world-rules.md              # optional
+    timeline.md                 # series timeline
+    memory/
+      events.md                 # series-level canon only
+      relationships.md
+      foreshadowing.md
+      unresolved-threads.md
+      book-status.md
+      mistakes.md
+    volumes/
+      book01/
+        outline.md
+        characters.md           # optional
+        timeline.md             # optional
+        chapters/
+          ch01.md
+        plans/
+          ch01_plan.md
+        critique/
+          ch01_critique.md
+        revisions/
+          ch01_revision.md
+        memory/
+          events.md
+          relationships.md
+          foreshadowing.md
+          mistakes.md
+
 system/
   prompts/
     planner.md
+    series-plan.md
     writer.md
     critic.md
     editor.md
     memory-updater.md
+    series-continuity.md
   mistakes/
     planner-mistakes.md
+    series-plan-mistakes.md
     writer-mistakes.md
     critic-mistakes.md
     editor-mistakes.md
     memory-updater-mistakes.md
+    series-continuity-mistakes.md
 ```
 
 ## Notes
@@ -64,3 +95,5 @@ system/
 - Local project rules define style and narrative parameters for that project.
 - `system/prompts/` stores reusable role prompts for workflow stages.
 - `system/mistakes/` stores agent-specific cross-book mistakes, such as `writer-mistakes.md`, which are loaded through the matching prompt.
+- `series` projects keep long-range canon at the project root and book-local canon inside `volumes/<book_id>/`.
+- `standalone` projects continue to use the simpler single-book layout and do not require `volumes/`.

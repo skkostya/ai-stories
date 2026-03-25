@@ -18,6 +18,7 @@ Use this file for project-specific facts and constraints that apply across the w
 
 - This file may define canon that is more specific than global workspace rules.
 - Do not contradict `outline.md`, `characters.md`, `world-rules.md`, or `timeline.md` without an explicit user request.
+- If `Project type: series`, treat root-level canon as series canon and volume files as book-local canon.
 
 ## Narrative Constraints
 
@@ -33,3 +34,4 @@ Use this file for project-specific facts and constraints that apply across the w
 - Treat accepted chapter files and accepted revisions as canon.
 - Ask before making major canon changes across existing chapters.
 - If this project has special workflow exceptions, document them here.
+- If `Project type: series`, document the active volume naming convention and any series-level workflow exceptions here.

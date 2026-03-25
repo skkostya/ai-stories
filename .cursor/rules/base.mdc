@@ -15,16 +15,17 @@ alwaysApply: true
 - These rules are global and apply to all books and series in the workspace.
 - Book-specific or series-specific rules may define language, genre, tone, POV, pacing, and target chapter length.
 - Local book or series rules override global stylistic defaults, but must not break canon consistency inside that project.
+- Every active project must behave in one of two modes:
+  - `standalone`: one project equals one book.
+  - `series`: one project equals a multi-book series with volume-specific subfolders.
 
 ## Structure
 
 - Each project lives under `books/<project_id>/`.
-- Each chapter is stored as a separate file in `chapters/`.
-- Each project maintains memory files in `memory/`:
-  - `events.md`
-  - `relationships.md`
-  - `foreshadowing.md`
-  - `mistakes.md`
+- `standalone` projects store chapter files directly in `chapters/`.
+- `series` projects store long-range canon at the project root and active-book material inside `volumes/<book_id>/`.
+- Each project maintains memory files in `memory/`.
+- `series` projects may additionally maintain volume-local memory inside `volumes/<book_id>/memory/`.
 - Role prompts live in `system/prompts/` and are used by workflow stage.
 - Agent-specific cross-book mistakes may live in `system/mistakes/` and are read through the matching stage prompt when relevant.
 
@@ -33,12 +34,25 @@ alwaysApply: true
 - Before planning, writing, revising, or updating memory, read the relevant local rules for the active project if they exist.
 - Before each workflow stage, read the matching file in `system/prompts/` for that stage.
 - Before each workflow stage, read the matching global mistakes file in `system/mistakes/` if it exists.
-- Before writing or revising a chapter, read:
+- Determine the active scope before any stage:
+  - `standalone`: the project root is the active scope.
+  - `series`: the project root is the series scope and one `volumes/<book_id>/` directory is the active volume scope.
+- Before writing or revising a chapter in a `standalone` project, read:
   - `outline.md`
   - `characters.md`
   - relevant memory files
   - previous canon chapter when available
   - approved chapter plan when available
+- Before writing or revising a chapter in a `series` project, read:
+  - series-level `outline.md`
+  - series-level `characters.md`
+  - series-level `world-rules.md` and `timeline.md` when present
+  - series-level relevant memory files
+  - active volume `outline.md`
+  - active volume `characters.md` and `timeline.md` when present
+  - active volume relevant memory files
+  - previous canon chapter in the active volume when available
+  - approved active-volume chapter plan when available
 
 ## Global Constraints
 
@@ -46,3 +60,4 @@ alwaysApply: true
 - Do not introduce major canon elements without recording them in the appropriate project files.
 - Preserve character consistency, world rules, and timeline consistency.
 - Treat accepted chapter files and approved revisions as canon unless the user explicitly changes canon.
+- In `series` projects, keep series-level canon and volume-level canon distinct instead of collapsing them into one file by habit.

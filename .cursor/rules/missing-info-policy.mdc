@@ -10,11 +10,13 @@ alwaysApply: true
 - If a required source file is missing, say what is missing before proceeding.
 - If the missing file is optional, continue and state the assumption.
 - If the missing file is required for canon-safe output, ask the user before continuing.
+- If a project claims to be a `series` but the active volume or required series-level canon files are unclear, ask before proceeding.
 
 ## When Canon Is Ambiguous
 
 - If previous material looks like a draft rather than accepted canon, ask whether it should be treated as canon.
 - If chapter numbering, chronology, or ownership of facts is unclear, ask instead of guessing.
+- If it is unclear whether a fact belongs to series-level canon or volume-level canon, ask instead of filing it arbitrarily.
 
 ## Safety Rules
 
