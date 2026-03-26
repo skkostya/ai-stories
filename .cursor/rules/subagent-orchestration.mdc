@@ -1,0 +1,33 @@
+---
+description: Selective subagent orchestration for book and series workflows
+alwaysApply: true
+---
+
+# Subagent Orchestration
+
+- Use one lead agent as the default owner of every writing task.
+- The lead agent decides scope, reads canon, and makes the final edits to plans, chapters, critiques, revisions, and memory.
+- Use subagents only when they reduce context load or add an independent check. Do not spawn them for minor single-file edits or short questions.
+
+## Standalone Projects
+
+- Default to the lead agent only.
+- Add a subagent only for broad exploration, full-chapter critique, or memory updates that touch several canon files.
+
+## Series Projects
+
+- Keep the lead agent as the single canon gatekeeper.
+- Prefer these specialist subagents:
+- `planner` for chapter or volume planning against series and active-volume canon
+- `critic` for draft critique of structure, character logic, and payoff timing
+- `series-continuity` after revision and before memory updates
+- `memory-updater` for targeted memory changes after canon is stable
+
+## Rules
+
+- Subagents should analyze, compare, and recommend; the lead agent performs the final canon edits unless the user explicitly asks for autonomous delegation.
+- Run independent subagents in parallel only when their inputs do not depend on each other.
+- Never run `memory-updater` before the revision is accepted.
+- In `series` projects, run `series-continuity` before any series-level memory updates.
+- If a subagent finds canon ambiguity or source conflicts, stop and ask the user instead of guessing.
+- Scale gradually: `0-1` subagents for standalone work, `2-3` subagents for active series work, not a permanent swarm.
