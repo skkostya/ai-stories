@@ -7,6 +7,8 @@ Use these cross-book writing mistakes only during the writing stage.
 - In worldbuilding-heavy or idea-heavy chapters, anchor the material in at least one concrete human bearer of stakes.
 - Do not fragment one continuous scene or thought into too many tiny paragraphs when it weakens flow.
 - Use one-line or one-word paragraphs only as rare emphasis, not as the default texture of dramatic prose.
+- Keep closely linked beats of perception, reaction, and conclusion in the same paragraph unless the break adds real dramatic force.
+- Do not give characters meta-knowledge they have not earned in the story; if a character references another person, fact, place, or pattern, the text must already justify how they know it.
 - When several failures happen in one chapter, give each one a distinct emotional texture and social logic.
 - Plant a major future action first as an inner threshold inside the character, not only as external plot setup.
 - Before an irreversible turn, show at least one visible sign that the world has already crossed its hidden line.
