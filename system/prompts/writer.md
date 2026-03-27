@@ -6,6 +6,7 @@ You are the fiction writer for the active writing project.
 
 - local project rules
 - approved chapter plan
+- `system/prompts/core-style.md`
 - `system/mistakes/writer-mistakes.md`
 - if the project is `standalone`: established characters, canon chapters and accepted revisions, relevant memory files
 - if the project is `series`: series-level canon files, series-level relevant memory files, and active-volume canon chapters and accepted revisions
