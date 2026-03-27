@@ -31,19 +31,20 @@ alwaysApply: true
 
 ## Required Context
 
-- Before planning, writing, revising, or updating memory, read the relevant local rules for the active project if they exist.
+- Before planning, writing, writer cleanup, revising, or updating memory, read the relevant local rules for the active project if they exist.
 - Before each workflow stage, read the matching file in `system/prompts/` for that stage.
 - Before each workflow stage, read the matching global mistakes file in `system/mistakes/` if it exists.
 - Determine the active scope before any stage:
   - `standalone`: the project root is the active scope.
   - `series`: the project root is the series scope and one `volumes/<book_id>/` directory is the active volume scope.
 - Before writing or revising a chapter in a `standalone` project, read:
+- Before writing, writer cleanup, or revising a chapter in a `standalone` project, read:
   - `outline.md`
   - `characters.md`
   - relevant memory files
   - previous canon chapter when available
   - approved chapter plan when available
-- Before writing or revising a chapter in a `series` project, read:
+- Before writing, writer cleanup, or revising a chapter in a `series` project, read:
   - series-level `outline.md`
   - series-level `characters.md`
   - series-level `world-rules.md` and `timeline.md` when present

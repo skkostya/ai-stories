@@ -8,6 +8,8 @@ Use these cross-book writing mistakes only during the writing stage.
 - Do not fragment one continuous scene or thought into too many tiny paragraphs when it weakens flow.
 - Use one-line or one-word paragraphs only as rare emphasis, not as the default texture of dramatic prose.
 - Keep closely linked beats of perception, reaction, and conclusion in the same paragraph unless the break adds real dramatic force.
+- If adjacent sentences belong to one observation chain, inference chain, or emotional turn inside the same scene, keep them in one paragraph; splitting them into multiple micro-paragraphs diffuses attention and weakens the reader's hold on the current narrative thread.
+- Do not isolate setup, object focus, reaction, and immediate conclusion into separate paragraphs when they are all part of one continuous local context; paragraph breaks should mark a real shift in dramatic unit, not just add visual intensity.
 - Do not give characters meta-knowledge they have not earned in the story; if a character references another person, fact, place, or pattern, the text must already justify how they know it.
 - When several failures happen in one chapter, give each one a distinct emotional texture and social logic.
 - Plant a major future action first as an inner threshold inside the character, not only as external plot setup.

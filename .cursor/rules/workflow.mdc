@@ -11,10 +11,11 @@ Use this workflow unless the user explicitly asks to skip or isolate a stage.
 
 1. Plan the chapter
 2. Write the chapter
-3. Critique the result
-4. Revise the chapter
-5. If the active project is a `series`, run `series_sync`
-6. Update project memory
+3. Run `writer_cleanup`
+4. Critique the result
+5. Revise the chapter
+6. If the active project is a `series`, run `series_sync`
+7. Update project memory
 
 ## Series-Only Optional Sequence
 
@@ -26,6 +27,7 @@ Use this only for multi-book projects when starting a new volume, ending a volum
 
 ## Stage Definitions
 
+- `writer_cleanup`: run a style-only cleanup pass immediately after drafting. Read `system/prompts/writer-cleanup.md`. This stage checks whether the chapter actually follows `system/mistakes/writer-mistakes.md`, fixes local prose problems such as over-fragmented paragraphs, weak flow, repetition, and similar writer-stage execution issues, and must not alter plot, canon, or chapter-level decisions.
 - `series_plan`: update the macro-arc of the series, active volume goals, unresolved threads, and reveal timing before drafting or outlining a new volume. Read `system/prompts/series-plan.md`.
 - `series_sync`: run the `series-continuity` agent to check whether the accepted chapter or revision still fits the long-range series arc, volume arc, open threads, and payoff timing before memory is updated. Read `system/prompts/series-continuity.md`.
 
@@ -37,6 +39,9 @@ Use this only for multi-book projects when starting a new volume, ending a volum
 - If the user asks to write, continue, draft, or finish a chapter and does not explicitly limit the scope, run the full sequence through memory update before considering the chapter complete.
 - Before each stage, explicitly read the matching prompt from `system/prompts/` for that stage instead of relying on memory.
 - Before each stage, explicitly read the matching global mistakes file from `system/mistakes/` when it exists.
+- Before any writing-stage prose is generated, the writer must explicitly read `system/mistakes/writer-mistakes.md` in the current stage. If that file has not been read yet for this writing pass, stop and read it before drafting the chapter.
+- `writer_cleanup` is mandatory after `writer` unless the user explicitly asks to isolate the draft stage.
+- `writer_cleanup` enforces `system/mistakes/writer-mistakes.md` at the prose level and must stay below the threshold of plot revision: no new canon, no structural story rewrites, no character-decision changes, and no reveal retiming.
 - Do not stop after the writing draft if the user asked to continue the book or write the next chapter; finishing the chapter means completing critique, revision, and memory update unless the user opts out.
 - For `standalone` projects, skip `series_plan` and `series_sync`.
 - For `series` projects, treat `series_sync` as required before memory updates unless the user explicitly asks to isolate a different stage.

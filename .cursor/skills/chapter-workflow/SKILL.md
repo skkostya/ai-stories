@@ -1,6 +1,6 @@
 ---
 name: chapter-workflow
-description: Runs the full chapter workflow for the ai-story repository: plan, write, critique, revise, series continuity check, and memory update. Use when the user asks to write, continue, draft, finish, revise, or process a chapter in a book or series project.
+description: Runs the full chapter workflow for the ai-story repository: plan, write, writer cleanup, critique, revise, series continuity check, and memory update. Use when the user asks to write, continue, draft, finish, revise, or process a chapter in a book or series project.
 ---
 
 # Chapter Workflow
@@ -23,10 +23,11 @@ Complete the full chapter workflow unless the user explicitly asks for only one 
 
 1. Plan the chapter.
 2. Write the chapter.
-3. Critique the result.
-4. Revise the chapter.
-5. If the project is `series`, run series continuity review before memory updates.
-6. Update memory only after the chapter is stable enough to treat as canon.
+3. Run writer cleanup.
+4. Critique the result.
+5. Revise the chapter.
+6. If the project is `series`, run series continuity review before memory updates.
+7. Update memory only after the chapter is stable enough to treat as canon.
 
 ## Required Reading By Stage
 
@@ -51,6 +52,12 @@ Do not assume files read for one stage still count for later stages.
 - Use the approved chapter plan.
 - Respect local rules for language, POV, tone, and chapter scope.
 - Return or save the full chapter text only.
+
+### Writer Cleanup
+
+- Read `system/prompts/writer-cleanup.md`.
+- Enforce `system/mistakes/writer-mistakes.md` on the actual prose after drafting.
+- Fix paragraphing, local flow, repetition, and sentence-level execution issues without changing plot or canon.
 
 ### Critique
 
