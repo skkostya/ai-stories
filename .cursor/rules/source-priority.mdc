@@ -32,6 +32,22 @@ When sources differ, resolve them using the priority list that matches the activ
 10. Active volume memory files
 11. Critique notes and working drafts
 
+## Grouped Project Priority (World / Universe)
+
+When the active story is grouped inside a `world` (and optionally a `universe`), extend the matching list above by inserting shared-canon layers just above the story's own `outline.md`:
+
+1. Current user instruction
+2. Story-local rules in the story `rules/` (`project.mdc`, `style.mdc`)
+3. World-level rules (`<world_id>/rules/world.mdc`) and `<world_id>/world-rules.md`
+4. World-level `characters.md` and `timeline.md`
+5. Universe-level rules (`<universe_id>/rules/universe.mdc`) and `<universe_id>/cosmology.md`
+6. Universe-level `characters.md` and `timeline.md`
+7. ...then continue with the standalone or series priority list (story `outline.md`, story `characters.md`/`world-rules.md`/`timeline.md`, plans, canon chapters, memory, drafts).
+
+- Story-local rules govern that story's own style, POV, and narrative parameters and win for those.
+- World- and universe-level shared canon facts outrank a single story's `outline.md` and memory: a story may add detail but must not contradict them.
+- Changing world- or universe-level shared canon is a cross-story retcon. Stop and ask first, then update dependent stories.
+
 ## Conflict Policy
 
 - If two canon sources conflict and the intended truth is unclear, stop and ask.

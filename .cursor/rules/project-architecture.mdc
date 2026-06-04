@@ -90,6 +90,52 @@ system/
     series-continuity-mistakes.md
 ```
 
+## Optional Grouping: World And Universe
+
+Stories may optionally be grouped so they can share canon. Grouping is additive: an ungrouped project under `books/<project_id>/` keeps working exactly as above. A grouped project nests one or two canon containers above the story.
+
+```text
+books/
+  <universe_id>/                  # universe container (shared cosmology)
+    cosmology.md                  # universe-wide canon: origin, physics, philosophy
+    characters.md                 # optional: figures that cross worlds
+    timeline.md                   # optional: universe meta-timeline
+    rules/
+      universe.mdc                # optional universe-level rules
+
+    <world_id>/                   # a world inside the universe (shared setting + magic)
+      world-rules.md              # world-wide canon: magic system, world physics
+      characters.md               # optional: figures shared across this world's stories
+      timeline.md                 # optional: world meta-timeline
+      rules/
+        world.mdc                 # optional world-level rules
+
+      <project_id>/               # a story inside the world: standalone OR series
+        rules/
+          project.mdc
+          style.mdc
+        # ...then the standalone or series layout from above, unchanged
+
+# A world may also exist without a universe:
+books/
+  <world_id>/
+    world-rules.md
+    <project_id>/ ...
+```
+
+### Role Detection
+
+- A folder is a `universe` when it holds universe canon (`cosmology.md` and/or `rules/universe.mdc`) and contains `world` subfolders.
+- A folder is a `world` when it holds world canon (`world-rules.md` and/or `rules/world.mdc`) and contains story subfolders.
+- A folder is a story when it holds `rules/project.mdc` plus a `standalone` or `series` layout.
+- Nesting depth is fixed: `universe -> world -> story`. A story is never nested inside another story.
+
+### Grouping Notes
+
+- Put the broadest shared facts in the highest container that needs them: cosmology at the universe, magic system and world physics at the world, story-specific canon in the story.
+- Do not copy shared canon down into each story. Stories reference the world and universe layers instead of duplicating them.
+- Each story still keeps its own `outline.md`, `characters.md`, `memory/`, chapters, and (for `series`) `volumes/`.
+
 ## Notes
 
 - `books/_template/` is the reusable starter structure for new projects.

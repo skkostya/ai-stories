@@ -18,6 +18,11 @@ alwaysApply: true
 - Every active project must behave in one of two modes:
   - `standalone`: one project equals one book.
   - `series`: one project equals a multi-book series with volume-specific subfolders.
+- Projects may optionally be grouped to share canon across many stories:
+  - A `world` groups several stories (any mix of `standalone` and `series`) that share a setting, magic system, and physics.
+  - A `universe` groups several `world`s that share a cosmology and overarching philosophy.
+  - Grouping is optional. An ungrouped project that lives directly under `books/<project_id>/` stays fully valid.
+  - A `world` and a `universe` are canon containers, not modes. The mode (`standalone` / `series`) is still set per story.
 
 ## Structure
 
@@ -37,7 +42,14 @@ alwaysApply: true
 - Determine the active scope before any stage:
   - `standalone`: the project root is the active scope.
   - `series`: the project root is the series scope and one `volumes/<book_id>/` directory is the active volume scope.
-- Before writing or revising a chapter in a `standalone` project, read:
+- Determine the grouping of the active project before any stage:
+  - ungrouped: the project lives directly under `books/<project_id>/`; no shared canon layers apply.
+  - grouped in a `world`: the project lives under `books/<universe_id>/<world_id>/<project_id>/` (or `books/<world_id>/<project_id>/` when there is no universe); the world layer adds shared canon above the story.
+  - grouped in a `universe`: the enclosing `world` itself lives under a `universe` that adds another shared canon layer above the world.
+- When the active project is grouped, before planning, writing, writer cleanup, revising, or updating memory, also read shared canon top-down, each layer when present:
+  - universe-level canon: cosmology and universe rules in the enclosing `<universe_id>/`
+  - world-level canon: `world-rules.md`, shared `characters.md` and `timeline.md`, and world rules in the enclosing `<world_id>/`
+- A grouped story may add detail but must not contradict the shared canon of its `world` or `universe`. Treat a needed change to shared canon as a cross-story retcon and stop to ask first.
 - Before writing, writer cleanup, or revising a chapter in a `standalone` project, read:
   - `outline.md`
   - `characters.md`

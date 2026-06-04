@@ -13,11 +13,15 @@ Complete the full chapter workflow unless the user explicitly asks for only one 
 
 ## Determine Scope
 
-1. Identify the active project under `books/<project_id>/`.
+1. Identify the active project and its grouping: ungrouped under `books/<project_id>/`, or grouped under `books/<universe_id>/<world_id>/<project_id>/`.
 2. Read local rules in `rules/project.mdc` and `rules/style.mdc` when present.
 3. Determine project type from local rules:
    - `standalone`: one book scope
    - `series`: series scope plus active volume scope
+4. If the project is grouped, also read shared canon top-down before each stage, each when present:
+   - universe-level: `<universe_id>/cosmology.md`, `<universe_id>/rules/universe.mdc`
+   - world-level: `<world_id>/world-rules.md`, `<world_id>/characters.md`, `<world_id>/timeline.md`, `<world_id>/rules/world.mdc`
+   - A grouped story must not contradict world or universe shared canon; treat such a change as a cross-story retcon and stop to ask.
 
 ## Stage Order
 

@@ -22,6 +22,7 @@ Create a safe, minimal project scaffold that matches the repository architecture
 2. Determine the `project_id`.
 3. Determine the primary language and intended audience if the user already provided them.
 4. If the project is `series`, determine the active volume naming convention before creating volume-specific files.
+5. Determine whether the project is grouped: ungrouped under `books/<project_id>/`, grouped inside a `world`, or grouped inside a `universe` + `world`. See `.cursor/rules/project-architecture.mdc` for the layout.
 
 ## Required Clarifications
 
@@ -30,6 +31,18 @@ Ask before proceeding if any of these are unclear:
 - `standalone` or `series`
 - project id or folder name
 - for `series`, the initial active volume id if volume folders should be created now
+- whether the story is grouped, and if so the `world_id` and optional `universe_id`
+- whether shared `world` / `universe` canon containers already exist or must be scaffolded now
+
+## Grouping Scaffold (Optional)
+
+Only create grouping containers when the user wants a shared world or universe.
+
+- `universe`: create `books/<universe_id>/cosmology.md`, optional `books/<universe_id>/rules/universe.mdc`, optional `characters.md` / `timeline.md`.
+- `world`: create `books/<universe_id>/<world_id>/world-rules.md` (or `books/<world_id>/world-rules.md` without a universe), optional `rules/world.mdc`, optional `characters.md` / `timeline.md`.
+- Place each story under its `world`: `books/<universe_id>/<world_id>/<project_id>/`, then build the standalone or series scaffold below inside that story folder.
+- Put shared facts in the highest container that needs them; do not duplicate world or universe canon inside each story.
+- Do not invent universe or world canon to fill containers. Derive it from sources the user provided, or leave concise placeholders and say so.
 
 ## Creation Rules
 
