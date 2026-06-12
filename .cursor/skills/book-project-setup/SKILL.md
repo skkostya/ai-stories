@@ -64,6 +64,8 @@ Create these when starting a new standalone book:
 - `books/<project_id>/plans/`
 - `books/<project_id>/critique/`
 - `books/<project_id>/revisions/`
+- `books/<project_id>/memory/state.md`
+- `books/<project_id>/memory/book-status.md`
 - `books/<project_id>/memory/events.md`
 - `books/<project_id>/memory/relationships.md`
 - `books/<project_id>/memory/foreshadowing.md`
@@ -73,6 +75,12 @@ Optional if the user wants them now:
 
 - `books/<project_id>/world-rules.md`
 - `books/<project_id>/timeline.md`
+
+For long standalone books (roughly 20+ chapters or explicit parts), also create:
+
+- `books/<project_id>/memory/summaries/` (compressed canon of finished parts, `partNN.md`)
+- a negative-canon ledger (e.g. `memory/memory-ledger.md`) when the plot depends on irreversible losses
+- declare `arc_sync` checkpoint chapters (part/zone boundaries) in `rules/project.mdc` or `outline.md`
 
 ## Series Scaffold
 
@@ -93,6 +101,7 @@ Create these when starting a new series:
 - `books/<project_id>/volumes/<book_id>/plans/`
 - `books/<project_id>/volumes/<book_id>/critique/`
 - `books/<project_id>/volumes/<book_id>/revisions/`
+- `books/<project_id>/volumes/<book_id>/memory/state.md`
 - `books/<project_id>/volumes/<book_id>/memory/events.md`
 - `books/<project_id>/volumes/<book_id>/memory/relationships.md`
 - `books/<project_id>/volumes/<book_id>/memory/foreshadowing.md`

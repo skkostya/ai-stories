@@ -15,7 +15,8 @@ Use this workflow unless the user explicitly asks to skip or isolate a stage.
 4. Critique the result
 5. Revise the chapter
 6. If the active project is a `series`, run `series_sync`
-7. Update project memory
+7. If the active project is a long `standalone` and the chapter is a declared part/zone boundary, run `arc_sync`
+8. Update project memory (including `state.md` and ledgers when present)
 
 ## Series-Only Optional Sequence
 
@@ -30,6 +31,7 @@ Use this only for multi-book projects when starting a new volume, ending a volum
 - `writer_cleanup`: run a style-only cleanup pass immediately after drafting. Read `system/prompts/writer-cleanup.md`. This stage checks whether the chapter actually follows `system/mistakes/writer-mistakes.md`, fixes local prose problems such as over-fragmented paragraphs, weak flow, repetition, and similar writer-stage execution issues, and must not alter plot, canon, or chapter-level decisions.
 - `series_plan`: update the macro-arc of the series, active volume goals, unresolved threads, and reveal timing before drafting or outlining a new volume. Read `system/prompts/series-plan.md`.
 - `series_sync`: run the `series-continuity` agent to check whether the accepted chapter or revision still fits the long-range series arc, volume arc, open threads, and payoff timing before memory is updated. Read `system/prompts/series-continuity.md`.
+- `arc_sync`: checkpoint continuity review for long `standalone` projects at part/zone boundaries declared in the project (`outline.md`, local rules, or `memory/book-status.md`). Checks outline drift, foreshadowing payoff timing, ledger and `state.md` consistency, and character-arc progress; on pass, the finished part is compressed into `memory/summaries/` per `memory-format.mdc`. Read `system/prompts/arc-sync.md`.
 
 ## Rules
 
@@ -43,6 +45,6 @@ Use this only for multi-book projects when starting a new volume, ending a volum
 - `writer_cleanup` is mandatory after `writer` unless the user explicitly asks to isolate the draft stage.
 - `writer_cleanup` enforces `system/mistakes/writer-mistakes.md` at the prose level and must stay below the threshold of plot revision: no new canon, no structural story rewrites, no character-decision changes, and no reveal retiming.
 - Do not stop after the writing draft if the user asked to continue the book or write the next chapter; finishing the chapter means completing critique, revision, and memory update unless the user opts out.
-- For `standalone` projects, skip `series_plan` and `series_sync`.
+- For `standalone` projects, skip `series_plan` and `series_sync`; for long `standalone` projects with declared part boundaries, treat `arc_sync` as required at those boundary chapters before memory updates.
 - For `series` projects, treat `series_sync` as required before memory updates unless the user explicitly asks to isolate a different stage.
-- `series_sync` may approve the chapter as-is or identify continuity risks that must be addressed before canon is considered stable.
+- `series_sync` and `arc_sync` may approve the chapter as-is or identify continuity risks that must be addressed before canon is considered stable.

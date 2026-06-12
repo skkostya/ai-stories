@@ -27,3 +27,30 @@ Memory files must stay concise, incremental, and easy to scan.
 - `## Chapter 03`
 - `- John discovers the hidden door`
 - `- Sarah lies about her past`
+
+## State Snapshot (`state.md`)
+
+`memory/state.md` is the current-truth dashboard: what is true NOW, not what happened. It exists so that chapter planning never has to re-derive the present from the full event log — that re-derivation is where long-book plot holes are born.
+
+- Sections (adapt per project): location/progress of the protagonists, per-character physical and emotional state, party composition and critical resources, open conflicts and tensions, in-world date or journey stage.
+- Update it as part of the memory stage after each stable chapter. Rewrite sections **in place** — history lives in `events.md`, not here.
+- Read it before planning and before writing every chapter.
+- Do not duplicate ledger content (see below) inside `state.md`; reference the ledger instead.
+
+## Hierarchical Memory For Long Books
+
+For long projects (roughly 20+ chapters, or any book with explicit parts/acts), `events.md` must not grow unboundedly:
+
+- While a part is active, `events.md` holds detailed per-chapter facts **for the current part only**.
+- At a part boundary (after the `arc_sync` checkpoint passes), compress the finished part into `memory/summaries/partNN.md`: 10–20 bullets of load-bearing canon facts — what later chapters may depend on.
+- Move the finished part's detailed per-chapter log from `events.md` into `memory/events-archive.md` (append-only; consulted only when a specific old detail must be verified).
+- Required reading before planning/writing then becomes: `state.md` + all `memory/summaries/` + current-part `events.md`. The archive is reference, not required reading.
+
+## Negative Canon Ledgers
+
+When a project's plot depends on irreversible losses or absences (erased memories, dead characters, destroyed places, lost abilities), keep them in a dedicated ledger file (e.g. `memory/memory-ledger.md`):
+
+- Each entry states what is no longer true / no longer known, and since which chapter.
+- Ledgers are **required reading before writing** and a mandatory checklist item for critique, revision, and `arc_sync`/`series_sync`: prose must not silently revert a ledger entry.
+- Removing or weakening a ledger entry is a retcon: stop and ask the user.
+- A partial recovery (when the project's rules allow one) is recorded as a new entry with its in-story justification, never by deleting the loss.

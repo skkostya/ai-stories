@@ -53,7 +53,10 @@ alwaysApply: true
 - Before writing, writer cleanup, or revising a chapter in a `standalone` project, read:
   - `outline.md`
   - `characters.md`
-  - relevant memory files
+  - `memory/state.md` when present (current-truth snapshot)
+  - `memory/summaries/` for completed parts when present
+  - current-part memory files (`events.md`, `relationships.md`, `foreshadowing.md`)
+  - negative-canon ledgers required by local rules when present (e.g. `memory/memory-ledger.md`)
   - previous canon chapter when available
   - approved chapter plan when available
 - Before writing, writer cleanup, or revising a chapter in a `series` project, read:
@@ -63,9 +66,11 @@ alwaysApply: true
   - series-level relevant memory files
   - active volume `outline.md`
   - active volume `characters.md` and `timeline.md` when present
-  - active volume relevant memory files
+  - active volume `memory/state.md` when present, part summaries when present, and current-part memory files
+  - negative-canon ledgers required by local rules when present
   - previous canon chapter in the active volume when available
   - approved active-volume chapter plan when available
+- `memory/events-archive.md` is reference material, not required reading: consult it only to verify a specific old detail.
 
 ## Global Constraints
 

@@ -33,10 +33,16 @@ books/
     revisions/
       ch01_revision.md
     memory/
-      events.md
+      state.md                  # current-truth snapshot (see memory-format)
+      book-status.md            # progress dashboard: last canon chapter, next checkpoint
+      events.md                 # detailed log of the CURRENT part (long books)
+      events-archive.md         # optional, long books: archived detail of finished parts
       relationships.md
       foreshadowing.md
       mistakes.md
+      memory-ledger.md          # optional: negative canon (irreversible losses)
+      summaries/                # optional, long books: partNN.md compressed canon
+        part01.md
 
     # series mode: one project equals one series
     outline.md                  # series arc
@@ -64,6 +70,7 @@ books/
         revisions/
           ch01_revision.md
         memory/
+          state.md              # current-truth snapshot of the active volume
           events.md
           relationships.md
           foreshadowing.md
@@ -79,6 +86,8 @@ system/
     editor.md
     memory-updater.md
     series-continuity.md
+    arc-sync.md
+    core-style.md
   mistakes/
     planner-mistakes.md
     series-plan-mistakes.md
