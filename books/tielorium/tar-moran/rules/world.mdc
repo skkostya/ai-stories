@@ -13,7 +13,7 @@ alwaysApply: false
 - Universe: `tielorium` (см. `books/tielorium/rules/universe.mdc` и `basis-of-the-universe.md`)
 - Тип контейнера: `world` (группирует истории; сам по себе не книга)
 - Источник истины по магии и физике мира: `books/tielorium/tar-moran/world-rules.md`
-- Первоисточник концепта историй: `books/tielorium/tar-moran/tar-molan-the-world-of-living-reality.md`
+- Первоисточник концепта историй: `books/tielorium/tar-moran/tar-moran-the-world-of-living-reality.md`
 
 ## Canon Priorities
 
