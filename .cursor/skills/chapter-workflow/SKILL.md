@@ -1,6 +1,6 @@
 ---
 name: chapter-workflow
-description: Runs the full chapter workflow for the ai-story repository: plan, write, writer cleanup, critique, revise, series continuity check, and memory update. Use when the user asks to write, continue, draft, finish, revise, or process a chapter in a book or series project.
+description: Runs the full chapter workflow for the ai-story repository: plan, write, writer cleanup, critique, revise, continuity checks, and memory update. Use when the user asks to write, continue, draft, finish, revise, or process a chapter in a book or series project.
 ---
 
 # Chapter Workflow
@@ -11,89 +11,25 @@ Use this skill for chapter-level work in this repository.
 
 Complete the full chapter workflow unless the user explicitly asks for only one stage.
 
-## Determine Scope
+## Source Of Truth
 
-1. Identify the active project and its grouping: ungrouped under `books/<project_id>/`, or grouped under `books/<universe_id>/<world_id>/<project_id>/`.
-2. Read local rules in `rules/project.mdc` and `rules/style.mdc` when present.
-3. Determine project type from local rules:
-   - `standalone`: one book scope
-   - `series`: series scope plus active volume scope
-4. If the project is grouped, also read shared canon top-down before each stage, each when present:
-   - universe-level: `<universe_id>/cosmology.md`, `<universe_id>/rules/universe.mdc`
-   - world-level: `<world_id>/world-rules.md`, `<world_id>/characters.md`, `<world_id>/timeline.md`, `<world_id>/rules/world.mdc`
-   - A grouped story must not contradict world or universe shared canon; treat such a change as a cross-story retcon and stop to ask.
+This skill is a procedural entry point. Canonical definitions live in rules and are **not duplicated here**:
 
-## Stage Order
+- stage order, stage definitions, stage rules: `.cursor/rules/workflow.mdc`
+- required context per stage, scope and grouping detection: `.cursor/rules/base.mdc`
+- conflict resolution between sources: `.cursor/rules/source-priority.mdc`
+- memory file formats and state files: `.cursor/rules/memory-format.mdc`
+- subagent roles and limits: `.cursor/rules/subagent-orchestration.mdc`
 
-1. Plan the chapter.
-2. Write the chapter.
-3. Run writer cleanup.
-4. Critique the result.
-5. Revise the chapter.
-6. If the project is `series`, run series continuity review before memory updates.
-7. Update memory only after the chapter is stable enough to treat as canon.
+## Procedure
 
-## Required Reading By Stage
-
-Before each stage, explicitly read:
-
-- the matching file in `system/prompts/`
-- the matching file in `system/mistakes/` when it exists
-- the required local canon and memory files for the active scope
-
-Do not assume files read for one stage still count for later stages.
-
-## Stage Notes
-
-### Planning
-
-- Read outline, characters, relevant memory, and the previous canon chapter when available.
-- In `series` projects, align with both series arc and active-volume arc.
-- Save or return the plan in the format required by `system/prompts/planner.md`.
-
-### Writing
-
-- Use the approved chapter plan.
-- Respect local rules for language, POV, tone, and chapter scope.
-- Return or save the full chapter text only.
-
-### Writer Cleanup
-
-- Read `system/prompts/writer-cleanup.md`.
-- Enforce `system/mistakes/writer-mistakes.md` on the actual prose after drafting.
-- Fix paragraphing, local flow, repetition, and sentence-level execution issues without changing plot or canon.
-
-### Critique
-
-- Focus on structure, character logic, canon consistency, pacing, and missed opportunities.
-- Prefer actionable findings over vague praise.
-
-### Revision
-
-- Fix the highest-impact problems first.
-- Strengthen the chapter without flattening voice or creating accidental retcons.
-
-### Series Continuity
-
-- Use only for `series` projects.
-- Run after revision and before memory updates.
-- Separate series-level consequences from active-volume consequences.
-
-### Memory Update
-
-- Update only the relevant memory sections.
-- Add facts, not prose summaries.
-- In `series` projects, keep series memory and volume memory distinct.
-
-## Subagent Use
-
-- Default to the lead agent only for small standalone tasks.
-- Use subagents selectively when they reduce context load or provide an independent check.
-- Best default roles:
-  - `critic`
-  - `series-continuity`
-  - `memory-updater`
-- The lead agent remains the final canon gatekeeper.
+1. Determine the active project, its grouping (ungrouped / `world` / `universe` + `world`), and its mode (`standalone` / `series`) from `rules/project.mdc`. Never assume them silently.
+2. For grouped projects, read shared canon top-down (universe → world → story) before each stage, as required by `base.mdc`.
+3. Run the stage sequence from `workflow.mdc`. Before each stage, explicitly read the matching `system/prompts/` file and the matching `system/mistakes/` file when it exists; before any prose, read `system/mistakes/writer-mistakes.md`.
+4. Continuity checkpoints:
+   - `series` projects: run `series_sync` after revision and before memory updates.
+   - long `standalone` projects: run `arc_sync` at the part/zone boundary chapters defined by the project (`outline.md` / `memory/book-status.md`).
+5. Update memory only after the chapter is stable enough to treat as canon, following `memory-format.mdc` (including `state.md` and project ledgers when present).
 
 ## Stop And Ask
 
@@ -101,8 +37,8 @@ Stop and ask the user if:
 
 - required canon files are missing for canon-safe work
 - accepted canon sources conflict
-- project type or active volume is unclear
-- the requested change would retcon established canon
+- project type, grouping, or active volume is unclear
+- the requested change would retcon established canon (story, world, or universe level)
 
 ## Example Triggers
 
