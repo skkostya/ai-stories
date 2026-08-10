@@ -26,6 +26,7 @@ This skill is a procedural entry point. Canonical definitions live in rules and 
 1. Determine the active project, its grouping (ungrouped / `world` / `universe` + `world`), and its mode (`standalone` / `series`) from `rules/project.mdc`. Never assume them silently.
 2. For grouped projects, read shared canon top-down (universe → world → story) before each stage, as required by `base.mdc`.
 3. Run the stage sequence from `workflow.mdc`. Before each stage, explicitly read the matching `system/prompts/` file and the matching `system/mistakes/` file when it exists; before any prose, read `system/mistakes/writer-mistakes.md`.
+4. `writer_check` is a gate between `writer_cleanup` and `critic`: the chapter does not move on while it returns `FAIL`. Run it with fresh context (a subagent given the chapter and the rule files, not the plan or memory) — see `subagent-orchestration.mdc`.
 4. Continuity checkpoints:
    - `series` projects: run `series_sync` after revision and before memory updates.
    - long `standalone` projects: run `arc_sync` at the part/zone boundary chapters defined by the project (`outline.md` / `memory/book-status.md`).

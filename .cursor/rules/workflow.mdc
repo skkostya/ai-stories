@@ -12,11 +12,12 @@ Use this workflow unless the user explicitly asks to skip or isolate a stage.
 1. Plan the chapter
 2. Write the chapter
 3. Run `writer_cleanup`
-4. Critique the result
-5. Revise the chapter
-6. If the active project is a `series`, run `series_sync`
-7. If the active project is a long `standalone` and the chapter is a declared part/zone boundary, run `arc_sync`
-8. Update project memory (including `state.md` and ledgers when present)
+4. Run `writer_check`; while it returns `FAIL`, apply its fixes and run it again
+5. Critique the result
+6. Revise the chapter
+7. If the active project is a `series`, run `series_sync`
+8. If the active project is a long `standalone` and the chapter is a declared part/zone boundary, run `arc_sync`
+9. Update project memory (including `state.md` and ledgers when present)
 
 ## Series-Only Optional Sequence
 
@@ -29,6 +30,7 @@ Use this only for multi-book projects when starting a new volume, ending a volum
 ## Stage Definitions
 
 - `writer_cleanup`: run a style-only cleanup pass immediately after drafting. Read `system/prompts/writer-cleanup.md`. This stage checks whether the chapter actually follows `system/mistakes/writer-mistakes.md`, fixes local prose problems such as over-fragmented paragraphs, weak flow, repetition, and similar writer-stage execution issues, and must not alter plot, canon, or chapter-level decisions.
+- `writer_check`: independent compliance audit of the drafted text against the written craft rules, run after `writer_cleanup` and before `critic`. Read `system/prompts/writer-check.md`. It verifies the chapter item by item against `system/mistakes/writer-mistakes.md`, `system/prompts/core-style.md`, the local `rules/style.mdc` and `rules/project.mdc`, and the local `memory/mistakes.md`; it cites every violation verbatim, returns `PASS` or `FAIL`, and proposes targeted fixes. It exists because the writer carries plan, canon and memory at once and drops style first, and because `writer_cleanup` improves the prose it happens to notice instead of auditing every rule. This stage judges only how the text is written: no plot, canon, motivation, structure, or reveal-timing judgements — those belong to `critic`.
 - `series_plan`: update the macro-arc of the series, active volume goals, unresolved threads, and reveal timing before drafting or outlining a new volume. Read `system/prompts/series-plan.md`.
 - `series_sync`: run the `series-continuity` agent to check whether the accepted chapter or revision still fits the long-range series arc, volume arc, open threads, and payoff timing before memory is updated. Read `system/prompts/series-continuity.md`.
 - `arc_sync`: checkpoint continuity review for long `standalone` projects at part/zone boundaries declared in the project (`outline.md`, local rules, or `memory/book-status.md`). Checks outline drift, foreshadowing payoff timing, ledger and `state.md` consistency, and character-arc progress; on pass, the finished part is compressed into `memory/summaries/` per `memory-format.mdc`. Read `system/prompts/arc-sync.md`.
@@ -44,6 +46,10 @@ Use this only for multi-book projects when starting a new volume, ending a volum
 - Before any writing-stage prose is generated, the writer must explicitly read `system/mistakes/writer-mistakes.md` in the current stage. If that file has not been read yet for this writing pass, stop and read it before drafting the chapter.
 - `writer_cleanup` is mandatory after `writer` unless the user explicitly asks to isolate the draft stage.
 - `writer_cleanup` enforces `system/mistakes/writer-mistakes.md` at the prose level and must stay below the threshold of plot revision: no new canon, no structural story rewrites, no character-decision changes, and no reveal retiming.
+- `writer_check` is mandatory after `writer_cleanup` unless the user explicitly asks to isolate the draft stage. A chapter is never handed to `critic` on a `FAIL`.
+- `writer_check` is a gate, not a suggestion: on `FAIL`, apply the listed fixes and run the stage again on the corrected text. Repeat until `PASS` or until the remaining items are explicitly recorded as intentional. Two rounds are usually enough; if a third `FAIL` repeats the same violation, the rule itself is written too weakly — sharpen it in `system/mistakes/writer-mistakes.md` or in the local `memory/mistakes.md` instead of patching the same spot again.
+- Run `writer_check` with fresh context whenever possible — a subagent that has not just written the chapter. The writer is the worst auditor of its own draft, and the point of this stage is that nothing but the text and the rule files competes for attention.
+- `writer_check` never rewrites the chapter and never touches story matters. It reports; the lead agent applies the fixes.
 - Do not stop after the writing draft if the user asked to continue the book or write the next chapter; finishing the chapter means completing critique, revision, and memory update unless the user opts out.
 - For `standalone` projects, skip `series_plan` and `series_sync`; for long `standalone` projects with declared part boundaries, treat `arc_sync` as required at those boundary chapters before memory updates.
 - For `series` projects, treat `series_sync` as required before memory updates unless the user explicitly asks to isolate a different stage.

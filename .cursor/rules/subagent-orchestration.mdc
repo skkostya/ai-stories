@@ -12,7 +12,13 @@ alwaysApply: true
 ## Standalone Projects
 
 - Default to the lead agent only.
-- Add a subagent only for broad exploration, full-chapter critique, or memory updates that touch several canon files.
+- Add a subagent only for broad exploration, full-chapter critique, `writer_check`, or memory updates that touch several canon files.
+
+## Writer Check
+
+- Prefer running `writer_check` in a separate subagent in every project type, `standalone` included. This is the one stage whose value comes from **not** sharing the writer's context: the agent that just wrote the chapter reads its own intentions instead of the text on the page.
+- Give that subagent the chapter and the rule files only. Do not hand it the plan, the outline, or memory: story context pulls the check toward critique and away from prose.
+- The subagent reports violations; the lead agent applies the fixes and re-runs the check.
 
 ## Series Projects
 
