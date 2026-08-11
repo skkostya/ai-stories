@@ -29,7 +29,8 @@ Confirm that the finished part still serves the whole-book arc before it is comp
 2. Check foreshadowing: setups planted on schedule, payoffs not fired early, nothing overdue past its planned window.
 3. Check ledgers and `state.md` against the prose: no silently reverted losses, no contradicted states, no characters knowing what they cannot know.
 4. Check each main character's arc progress against the plan for this part.
-5. Draft the compressed part summary for `memory/summaries/partNN.md` (10–20 fact bullets of load-bearing canon).
+5. Check the part's **stakes balance**: what was actually risked across these chapters, and in what currency. A part where the characters risked only conscience, memory, faith or reputation — and nothing bodily — is a defect to report, not a stylistic choice. Name what could have ended badly and whether the reader had reason to believe it. Where the world's central threat cannot kill by canon, verify the compensating danger the project declared is actually on the page.
+6. Draft the compressed part summary for `memory/summaries/partNN.md` (10–20 fact bullets of load-bearing canon).
 
 ## Output Format
 
@@ -50,6 +51,10 @@ Pass or Needs attention
 ## Ledger / State Violations
 
 - item
+
+## Stakes Balance
+
+Чем рисковали в этой части и в какой валюте; чего недостаёт.
 
 ## Character Arc Notes
 
